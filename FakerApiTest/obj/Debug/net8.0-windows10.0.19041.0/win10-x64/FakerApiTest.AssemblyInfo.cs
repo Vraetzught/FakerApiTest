@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FakerApiTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+01db297cb059806e0fedc98c1e04a08723c6aa16")]
 [assembly: System.Reflection.AssemblyProductAttribute("FakerApiTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FakerApiTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

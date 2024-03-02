@@ -311,3 +311,4 @@ C:\Users\klaas\Documents\VSCode work\Thomas More\Programming Advanced\FakerApiTe
 C:\Users\klaas\Documents\VSCode work\Thomas More\Programming Advanced\FakerApiTest\FakerApiTest\obj\Debug\net8.0-ios\iossimulator-x64\FakerApiTest.pdb
 C:\Users\klaas\Documents\VSCode work\Thomas More\Programming Advanced\FakerApiTest\FakerApiTest\obj\Debug\net8.0-ios\iossimulator-x64\FakerApiTest.genruntimeconfig.cache
 C:\Users\klaas\Documents\VSCode work\Thomas More\Programming Advanced\FakerApiTest\FakerApiTest\obj\Debug\net8.0-ios\iossimulator-x64\ref\FakerApiTest.dll
+C:\Users\klaas\Documents\VSCode work\Thomas More\Programming Advanced\FakerApiTest\FakerApiTest\obj\Debug\net8.0-ios\iossimulator-x64\FakerApiTest.sourcelink.json
