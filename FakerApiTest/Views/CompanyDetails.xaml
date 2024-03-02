@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:FakerApiTest.ViewModels"
+             xmlns:model="clr-namespace:FakerApiTest.Models"
+             x:DataType="viewmodel:CompanyDetailsViewModel"
+             x:Class="FakerApiTest.Views.CompanyDetails"
+             Title="{Binding Company.name}">
+    <ScrollView Orientation="Vertical">
+        <VerticalStackLayout Spacing="20">
+            <Label Text="{Binding Company.name, 
+                StringFormat='Company name: {0}'}"></Label>
+            <Label Text="{Binding Company.country, 
+                StringFormat='HQ location: {0}'}"></Label>
+            <HorizontalStackLayout Spacing="20">
+                <Label Text="Contact details:"></Label>
+                <Label Text="{Binding Company.phone, 
+                    StringFormat='phone: {0}'}"></Label>
+                <Label Text="{Binding Company.email, 
+                    StringFormat='email: {0}'}"></Label>
+                <Label Text="{Binding Company.website, 
+                    StringFormat='website: {0}'}"></Label>
+            </HorizontalStackLayout>
+            <CollectionView ItemsSource="{Binding Company.addresses}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="3"></GridItemsLayout>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:Location">
+                        <Frame>
+                            <VerticalStackLayout>
+                                <Label Text="{Binding street}"></Label>
+                                <Label>
+                                    <Label.Text>
+                                        <MultiBinding StringFormat="{}{0} {1}">
+                                            <Binding Path="zipcode"></Binding>
+                                            <Binding Path="city"></Binding>
+                                        </MultiBinding>
+                                    </Label.Text>
+                                </Label>
+                                <Label Text="{Binding country}"></Label>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

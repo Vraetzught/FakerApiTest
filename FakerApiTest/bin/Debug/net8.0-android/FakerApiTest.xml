@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FakerApiTest</name>
+    </assembly>
+    <members>
+        <member name="T:FakerApiTest.ViewModels.BaseViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:FakerApiTest.ViewModels.BaseViewModel.Title">
+            <inheritdoc cref="F:FakerApiTest.ViewModels.BaseViewModel.title"/>
+        </member>
+        <member name="T:FakerApiTest.ViewModels.CompanyDetailsViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:FakerApiTest.ViewModels.CompanyDetailsViewModel.Company">
+            <inheritdoc cref="F:FakerApiTest.ViewModels.CompanyDetailsViewModel.company"/>
+        </member>
+        <member name="T:FakerApiTest.ViewModels.CompanyViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:FakerApiTest.ViewModels.CompanyViewModel.CompanyResult">
+            <inheritdoc cref="F:FakerApiTest.ViewModels.CompanyViewModel.companyResult"/>
+        </member>
+        <member name="F:FakerApiTest.ViewModels.CompanyViewModel.getCompaniesCommand">
+            <summary>The backing field for <see cref="P:FakerApiTest.ViewModels.CompanyViewModel.GetCompaniesCommand"/>.</summary>
+        </member>
+        <member name="P:FakerApiTest.ViewModels.CompanyViewModel.GetCompaniesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:FakerApiTest.ViewModels.CompanyViewModel.GetCompanies"/>.</summary>
+        </member>
+        <member name="F:FakerApiTest.ViewModels.CompanyViewModel.showDetailsCommand">
+            <summary>The backing field for <see cref="P:FakerApiTest.ViewModels.CompanyViewModel.ShowDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:FakerApiTest.ViewModels.CompanyViewModel.ShowDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FakerApiTest.ViewModels.CompanyViewModel.ShowDetails(FakerApiTest.Models.Company)"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Company">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Company" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CompanyResult">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CompanyResult" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Company">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Company" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CompanyResult">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CompanyResult" generated properties.</summary>
+        </member>
+    </members>
+</doc>
